@@ -1,0 +1,155 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+    body {
+    background: #eecfe92c;
+    color: #2b2c28;
+    font-family: Poppins Thin;
+    margin: 0 auto;;
+    }
+    main{
+        margin-top: 130px;
+        border-bottom: 1px solid #dfdfe2;
+    }
+    h1 {
+    color: #2b2c28;
+    text-align: center;
+    margin: 95;
+    font-family: Lato Thin;
+    font-size: 24px;
+    margin-bottom: 0px;
+    font-weight: 600;
+  }
+  .one{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    }
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: #fabbf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
+  nav > ul > li {
+    color: #6f5f75;
+    margin: 0 0.5 rem;
+    padding: 1.0rem;
+    display: block;
+  }
+  nav > ul > li:hover {
+    background-color: #e47dcf71;
+    color: #6f5f75;
+    cursor: pointer;
+  }
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  
+  }
+  #header-img {
+    width: max(90px, 18vw);
+    background-color:#fabbf0;
+    aspect-ratio: 35 / 8;
+    padding: 0.4rem;
+    width: 120px; /* Задайте бажану ширину */
+    height: 65px;
+  }
+  .registration-button {
+    display: block;
+    margin: 0 auto; /* автоматичні відступи по горизонталі для центрування */
+    padding: 15px 25px;
+    background-color: #FF00FF; /* колір фону кнопки */
+    color: #fff; /* колір тексту */
+    text-decoration: none; /* відміна підкреслення посилання */
+    border-radius: 7px; /* закругленість кутів */
+    border-color: #FF00FF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  a{
+    text-decoration: none;
+  }
+  .registration-button:hover {
+    background-color: #fff;
+    color: #FF00FF;  /* колір фону кнопки при наведенні курсора */
+  }
+  .content-wrapper {
+    display: flex; /* Застосовуємо flexbox для вирівнювання елементів */
+    align-items: center; /* Вирівнюємо елементи по вертикалі */
+}
+
+.text {
+    margin-left: 20px; /* Задаємо відступ для тексту від картинки */
+}
+  section {
+    width: 90%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+    margin-top: 60px;
+  }
+  #Можливості{
+  border-bottom: 1px solid #dfdfe2;
+  scroll-margin-top: 100px;
+  }
+  
+  .shop {
+    border-width: 1px; /* Товщина кордону */
+    border-style: groove; /* Тип кордону (в цьому випадку твердий) */
+    background-color: #fabbef74;
+    border-color: rgba(34, 31, 31, 0.164);
+    border-radius: 10px; 
+    margin-right: 25px;
+    padding: 15px;
+    border-bottom: 1px solid #dfdfe2;
+    margin-bottom: 95px;
+  }
+    h3{
+     font-size: 2em;
+     font-family: Times New Roman;
+     font-weight: 400;
+     margin-top: 1px;
+     margin-bottom: 0;
+    }
+     .shoping{
+  font-family: Times New Roman;
+  font-weight: 100;
+     }
+  footer {
+    background-color: #eecfe900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+  }
+  .contact-label {
+    font-weight: bold; /* Зробити текст жирним */
+    margin-bottom: 30px;
+  
+  }
+  .social-link img {
+    width: 20px; /* Задайте бажану ширину */
+    height: 20px; /* Задайте бажану висоту */
+    margin-top: 30px;
+    margin-left: 6px;
+    transition: transform 0.3s ease;
+  }
+  .social-link img:hover {
+    transform: scale(1.1); /* Збільшення розміру на 10% при наведенні */
+  }
+}
